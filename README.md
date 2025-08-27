@@ -1,4 +1,3 @@
 # ShopSphere
 This is my First project.
--Amazon Project.
-
+-Amazon clone
