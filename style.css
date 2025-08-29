@@ -4,7 +4,20 @@
     font-family: Arial;
     border: border-box;
 }
+img{
+    max-width: 100%;
+    height: auto;
 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex: 1 1 200px;
+    margin: 10px;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
