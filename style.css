@@ -290,7 +290,7 @@ ul a{
 
      }
 }
-@media (max-width:1024px){
+/* @edia (max-width:1024px){
     .products{
         grid-template-columns: repeat(3, 1fr);
 
@@ -299,5 +299,5 @@ ul a{
 @media (min-width: 1025px){
     .products{
         grid-template-columns: repeat(4, 1fr);
-    }
-}
+    }m
+} */
