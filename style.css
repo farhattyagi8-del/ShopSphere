@@ -4,21 +4,7 @@
     font-family: Arial;
     border: border-box;
 }
-/* img{
-    max-width: 100%;
-    height: auto;
-    display: block;
 
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.item{
-    flex: 1 1 200px;
-    margin: 10px;
-} */
 
 .navbar{
     height: 60px;
@@ -269,90 +255,4 @@ ul a{
     font-size: 0.7rem;
     text-align: center;
 
-}
-/* @media(max-width: 400px){
-    .navbar{
-        flex-direction: column;
-        align-items: center;
-        
-    }
-     .navbar .search-bar{
-        margin: 10px 0;
-        width: 100%;
-     }
-     .navbar .menu{
-        flex-direction: column;
-        gap:10px;
-        width: 100%;
-     }
-     .products{
-        grid-template-columns: repeat(2, 1fr);
-
-     } */
-
-/* @edia (max-width:1024px){
-    .products{
-        grid-template-columns: repeat(3, 1fr);
-
-    }
-}
-@media (min-width: 1025px){
-    .products{
-        grid-template-columns: repeat(4, 1fr);
-    }m
-} */
-
-.panel {
-    width: 25%;
-    float: left;
-    padding: 10px;
-    box-sizing: border-box;
-
-}
-
-@media ( max-width:768px){
-    .panel{
-    width: 100%;
-    float:none;
-    padding:5px;
-    margin-bottom: 15px;
-}
-body{
-    font-size: 14px;
-}
-.nav-bar{
-    flex-direction: column;
-    align-items: center;
-}
-.nav-bar a{
-    margin:5px 0;
-    font-size: 14px;
-}
-.main-content{
-    padding:10px;
-    font-size: 14px;
-}
- .panel img{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-
-}
-.panel h3{
-    text-align: center;
-    font-size: 16px;
-}
-}
-@media(max-width:480px){
-    .panel h3{
-        font-size: 14px;
-    }
-    .main-content{
-        padding:5px;
-        font-size: 12px;
-    }
-    .nav-bar a{
-        text-align: center;
-    }
 }
