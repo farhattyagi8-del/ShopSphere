@@ -4,7 +4,7 @@
     font-family: Arial;
     border: border-box;
 }
-img{
+/* img{
     max-width: 100%;
     height: auto;
     display: block;
@@ -18,7 +18,7 @@ img{
 .item{
     flex: 1 1 200px;
     margin: 10px;
-}
+} */
 
 .navbar{
     height: 60px;
