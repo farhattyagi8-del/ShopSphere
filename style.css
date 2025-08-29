@@ -7,6 +7,7 @@
 img{
     max-width: 100%;
     height: auto;
+    display: block;
 
 }
 
@@ -18,6 +19,7 @@ img{
     flex: 1 1 200px;
     margin: 10px;
 }
+
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -267,4 +269,35 @@ ul a{
     font-size: 0.7rem;
     text-align: center;
 
+}
+@media(max-width: 455px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+     .navbar .search-bar{
+        margin: 10px 0;
+        width: 100%;
+     }
+     .navbar .menu{
+        flex-direction: column;
+        gap:10px;
+        width: 100%;
+     }
+     .products{
+        grid-template-columns: repeat(2, 1fr);
+
+     }
+}
+@media (max-width:1024px){
+    .products{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+@media (min-width: 1025px){
+    .products{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
